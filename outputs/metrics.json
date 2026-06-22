@@ -1,0 +1,130 @@
+{
+  "governed": {
+    "system": {
+      "fill_rate": 0.9895,
+      "stockout_ticks": 1,
+      "units_lost": 79.0,
+      "profit": 19219.0,
+      "revenue": 144118.0,
+      "holding_cost": 10601.0,
+      "stockout_cost": 395.0
+    },
+    "interaction": {
+      "bullwhip_ratio": 2.491,
+      "messages_total": 585,
+      "messages_per_tick": 9.8,
+      "contract_net_rounds": 60,
+      "circuit_breaks": 0,
+      "rollbacks": 0
+    },
+    "agent": {
+      "forecast_mape": 0.1952,
+      "avg_order_qty": 124.6,
+      "order_qty_stdev": 85.3,
+      "price_volatility": 0.733
+    },
+    "human": {
+      "approval_decisions": 120,
+      "auto_approved": 120,
+      "approved_with_latency": 0,
+      "escalations_pending": 0,
+      "human_queue_len": 0
+    }
+  },
+  "no_smoothing": {
+    "system": {
+      "fill_rate": 0.9732,
+      "stockout_ticks": 2,
+      "units_lost": 197.4,
+      "profit": 24182.0,
+      "revenue": 141201.0,
+      "holding_cost": 7052.0,
+      "stockout_cost": 987.0
+    },
+    "interaction": {
+      "bullwhip_ratio": 2.485,
+      "messages_total": 571,
+      "messages_per_tick": 9.5,
+      "contract_net_rounds": 58,
+      "circuit_breaks": 1,
+      "rollbacks": 1
+    },
+    "agent": {
+      "forecast_mape": 0.1967,
+      "avg_order_qty": 118.7,
+      "order_qty_stdev": 87.8,
+      "price_volatility": 0.581
+    },
+    "human": {
+      "approval_decisions": 118,
+      "auto_approved": 118,
+      "approved_with_latency": 0,
+      "escalations_pending": 1,
+      "human_queue_len": 1
+    }
+  },
+  "ungoverned": {
+    "system": {
+      "fill_rate": 0.9766,
+      "stockout_ticks": 2,
+      "units_lost": 184.9,
+      "profit": 19193.0,
+      "revenue": 144373.0,
+      "holding_cost": 7355.0,
+      "stockout_cost": 925.0
+    },
+    "interaction": {
+      "bullwhip_ratio": 2.629,
+      "messages_total": 570,
+      "messages_per_tick": 9.5,
+      "contract_net_rounds": 58,
+      "circuit_breaks": 0,
+      "rollbacks": 0
+    },
+    "agent": {
+      "forecast_mape": 0.1914,
+      "avg_order_qty": 127.9,
+      "order_qty_stdev": 93.6,
+      "price_volatility": 0.879
+    },
+    "human": {
+      "approval_decisions": 118,
+      "auto_approved": 118,
+      "approved_with_latency": 0,
+      "escalations_pending": 0,
+      "human_queue_len": 0
+    }
+  },
+  "supplier_outage": {
+    "system": {
+      "fill_rate": 0.9545,
+      "stockout_ticks": 3,
+      "units_lost": 340.8,
+      "profit": 35722.0,
+      "revenue": 138753.0,
+      "holding_cost": 7699.0,
+      "stockout_cost": 1704.0
+    },
+    "interaction": {
+      "bullwhip_ratio": 1.941,
+      "messages_total": 537,
+      "messages_per_tick": 8.9,
+      "contract_net_rounds": 60,
+      "circuit_breaks": 0,
+      "rollbacks": 0
+    },
+    "agent": {
+      "forecast_mape": 0.1952,
+      "avg_order_qty": 120.3,
+      "order_qty_stdev": 75.3,
+      "price_volatility": 0.733
+    },
+    "human": {
+      "approval_decisions": 120,
+      "auto_approved": 120,
+      "approved_with_latency": 0,
+      "escalations_pending": 0,
+      "human_queue_len": 0
+    }
+  }
+}
